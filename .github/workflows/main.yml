@@ -50,7 +50,7 @@ jobs:
           file: Dockerfile
           push: true
           tags: |
-            ${{secrets.DH_USERNAME}}/lab7:test
+            ${{secrets.DH_USER}}/lab7:test
 
       #Przenies cache'a
       - name: Move cache
